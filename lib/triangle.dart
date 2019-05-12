@@ -1,6 +1,6 @@
 import 'dart:math' as math;
 import 'package:sprintf/sprintf.dart';
-import 'package:shapes/twodimensional.dart';
+import 'twodimensional.dart';
 
 class Triangle extends TwoDimensional {
   double _a;

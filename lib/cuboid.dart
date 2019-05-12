@@ -1,5 +1,5 @@
 import 'package:sprintf/sprintf.dart';
-import 'package:shapes/threedimensional.dart';
+import 'threedimensional.dart';
 
 class Cuboid extends ThreeDimensional {
   double _width;

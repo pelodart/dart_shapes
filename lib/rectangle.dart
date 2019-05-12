@@ -1,5 +1,5 @@
 import 'package:sprintf/sprintf.dart';
-import 'package:shapes/twodimensional.dart';
+import 'twodimensional.dart';
 
 class Rectangle extends TwoDimensional {
   double _width;

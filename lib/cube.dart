@@ -1,5 +1,5 @@
 import 'package:sprintf/sprintf.dart';
-import 'package:shapes/threedimensional.dart';
+import 'threedimensional.dart';
 
 class Cube extends ThreeDimensional {
   double _size;

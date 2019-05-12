@@ -8,7 +8,7 @@ import 'package:shapes/sphere.dart';
 import 'package:shapes/triangle.dart';
 
 void main() {
-  // testingInheritance();
+  testingInheritance();
   testingPolymorphismus();
 }
 
@@ -30,7 +30,7 @@ void testingInheritance() {
 }
 
 void testingPolymorphismus() {
-  var shapes = <Shape>{};
+  var shapes = List<Shape>();
   shapes.add(new Triangle(1, 1, 2, 3, 4));
   shapes.add(new Rectangle(10, 10, 20, 40));
   shapes.add(new Circle(20, 20, 10));
@@ -40,6 +40,6 @@ void testingPolymorphismus() {
   shapes.add(new Cone(60, 60, 50, 20, 30));
 
   for (var shape in shapes) {
-	  shape.Draw();
+    shape.Draw();
   }
 }
