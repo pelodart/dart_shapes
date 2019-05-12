@@ -48,7 +48,7 @@ den *Polymorphismus* oder auch als *Polymorphie* bezeichnet, demonstrieren zu k√
 
 ```dart
 void testingPolymorphismus() {
-  var shapes = <Shape>{};
+  var shapes = List<Shape>();
   shapes.add(new Triangle(1, 1, 2, 3, 4));
   shapes.add(new Rectangle(10, 10, 20, 40));
   shapes.add(new Circle(20, 20, 10));
