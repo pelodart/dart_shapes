@@ -72,8 +72,8 @@ Shape: Triangle
     A: 2
     B: 3
     C: 4
-    Area: 2.82843
-    Circumference: 8
+    Area: 2.90474
+    Circumference: 9
 Shape: Rectangle
   TwoDimensional
   Position: 10, 10

@@ -11,7 +11,7 @@ class Triangle extends TwoDimensional {
       : super("Triangle", x, y) {
     _a = a;
     _b = b;
-    _c = b;
+    _c = c;
   }
 
   // getters
