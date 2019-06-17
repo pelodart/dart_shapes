@@ -71,7 +71,7 @@ Shape: Triangle
   Position: 1, 1
     A: 2
     B: 3
-    C: 3
+    C: 4
     Area: 2.82843
     Circumference: 8
 Shape: Rectangle
